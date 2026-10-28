@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Ação Solidária - Início</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">ONG Ação Solidária</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-hamburguer">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link ativo">Início</a>
+        </div>
+        <div class="nav-item dropdown">
+          <a href="projetos.html" class="nav-link">Projetos ▾</a>
+          <ul class="submenu">
+            <li><a href="projetos.html#educacao">Educação</a></li>
+            <li><a href="projetos.html#acolhimento">Todos Podem Ser</a></li>
+            <li><a href="projetos.html#voluntariado">Voluntariado</a></li>
+          </ul>
+        </div>
+        <div class="nav-item">
+          <a href="cadastro.html" class="nav-link">Cadastro</a>
+        </div>
+        <div class="nav-item">
+          <a href="#modal-doacao" class="btn">Doar</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container grid-12">
+        <div class="col-7">
+          <div class="badges">
+            <span class="badge badge-destaque">Ação Social</span>
+            <span class="badge badge-sucesso">Transparência</span>
+          </div>
+          <h1>Transformando vidas com solidariedade</h1>
+          <p>Apoiamos crianças e famílias em situação de vulnerabilidade através da educação e do voluntariado.</p>
+          <div class="flex">
+            <a href="projetos.html" class="btn btn-secundario">Ver Projetos</a>
+            <a href="cadastro.html" class="btn btn-outline" style="color: #fff; border-color: #fff;">Seja Voluntário</a>
+          </div>
+        </div>
+        <div class="col-5">
+          <img src="imagens/voluntarios.jpg" alt="Voluntários unidos">
+        </div>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <div class="alerta">
+          <span>Campanha de arrecadação de materiais escolares aberta!</span>
+          <a href="#modal-doacao" class="btn">Apoiar</a>
+        </div>
+
+        <h2>Nossos Projetos em Destaque</h2>
+        <div class="grid-12">
+          <article class="col-4">
+            <div class="card">
+              <img src="imagens/todos-podem-ser.png" alt="Projeto Todos Podem Ser">
+              <div class="card-corpo">
+                <div class="badges">
+                  <span class="badge badge-destaque">Infância</span>
+                  <span class="tag">#Acolhimento</span>
+                </div>
+                <h3>Todos Podem Ser</h3>
+                <p>Proteção, alimentação e apoio social para crianças e famílias.</p>
+              </div>
+              <div class="card-rodape">
+                <a href="projetos.html" class="btn btn-outline">Detalhes</a>
+                <a href="#modal-doacao" class="btn">Doar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-4">
+            <div class="card">
+              <img src="imagens/educacao.jpg" alt="Educação para Todos">
+              <div class="card-corpo">
+                <div class="badges">
+                  <span class="badge">Educação</span>
+                  <span class="tag">#Escola</span>
+                </div>
+                <h3>Educação para Todos</h3>
+                <p>Reforço escolar e entrega de materiais didáticos para crianças.</p>
+              </div>
+              <div class="card-rodape">
+                <a href="projetos.html" class="btn btn-outline">Detalhes</a>
+                <a href="#modal-doacao" class="btn">Doar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-4">
+            <div class="card">
+              <img src="imagens/voluntarios.jpg" alt="Rede de Voluntários">
+              <div class="card-corpo">
+                <div class="badges">
+                  <span class="badge badge-sucesso">Voluntariado</span>
+                  <span class="tag">#Comunidade</span>
+                </div>
+                <h3>Rede de Voluntários</h3>
+                <p>Mutirões e ações solidárias realizadas em diversas comunidades.</p>
+              </div>
+              <div class="card-rodape">
+                <a href="cadastro.html" class="btn btn-secundario">Participar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal-doacao" class="modal">
+    <div class="modal-conteudo">
+      <h2>Faça sua Doação</h2>
+      <p>Contribua via PIX para manter nossos projetos ativos:</p>
+      <div class="alerta alerta-sucesso">
+        <strong>PIX CNPJ: 01.010.111/0001-01</strong>
+      </div>
+      <div class="flex-between">
+        <a href="cadastro.html" class="btn">Cadastrar Doador</a>
+        <a href="#" class="btn btn-outline">Fechar</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast">
+    Obrigado por apoiar a ONG Ação Solidária!
+  </div>
+
+  <footer>
+    <div class="container">
+      <p style="color: #fff; margin: 0;">ONG Ação Solidária</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<!--Algumas funcionalidades foram pegas através de pesquisas e com o auxílio de IA-->
